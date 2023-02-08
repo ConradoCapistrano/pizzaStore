@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Hepta+Slab:400,700|Lato:400,700&display=swap" rel="stylesheet">
+
+    <title>Pizzaria Store Delivery</title>
+
+    <script src="assets/js/pizzas.js" defer></script>
+    <script src="assets/js/script.js" defer></script>
+</head>
+<body>
+    <div class="models">
+        <div class="pizza_item">
+            <a href="">
+                <div class="pizza_item_img"><img src="" /></div>
+                <div class="pizza_item_add">+</div>
+            </a>
+            <div class="pizza_item_price">R$ --</div>
+            <div class="pizza_item_name">--</div>
+            <div class="pizza_item_desc">--</div>
+        </div>
+        <div class="cart_item">
+            <img src="" />
+            <div class="cart_item_nome">--</div>
+            <div class="cart_item_qtarea">
+                <button class="cart_item_qtmenos">-</button>
+                <div class="cart_item_qt">1</div>
+                <button class="cart_item_qtmais">+</button>
+            </div>
+        </div>
+    </div>
+    <header>
+        <div class="menu_openner"><span>0</span>🛒</div>
+    </header>
+    <main>
+        <h1>Catalogo</h1>
+        <div class="pizza_area"></div>
+    </main>
+    <aside>
+        <div class="cart_area">
+            <div class="menu_closer">❌</div>
+            <h1>Seu Pedido</h1>
+            <div class="cart"></div>
+            <div class="cart_details">
+                <div class="cart_total_item subtotal">
+                    <span>Subtotal</span>
+                    <span>R$ --</span>
+                </div>
+                <div class="cart_total_item desconto">
+                    <span>Desconto (-10%)</span>
+                    <span>R$ --</span>
+                </div>
+                <div class="cart_total_item total big">
+                    <span>Total</span>
+                    <span>R$ --</span>
+                </div>
+                <div class="cart_finalizar">Finalizar a compra</div>
+            </div>
+        </div>
+    </aside>
+    <div class="pizzaWindowArea">
+        <div class="pizzaWindowBody">
+            <div class="pizzaInfo_cancelMobileButton">Voltar</div>
+            <div class="pizzaBig">
+                <img src="" />
+            </div>
+            <div class="pizzaInfo">
+                <h1>--</h1>
+                <div class="pizzaInfo_desc">--</div>
+                <div class="pizzaInfo_sizearea">
+                    <div class="pizzaInfo_sector">Tamanho</div>
+                    <div class="pizzaInfo_sizes">
+                        <div data-key="0" class="pizzaInfo_size">PEQUENA <span>--</span></div>
+                        <div data-key="1" class="pizzaInfo_size">MÉDIO <span>--</span></div>
+                        <div data-key="2" class="pizzaInfo_size selected">GRANDE <span>--</span></div>
+                    </div>
+                </div>
+                <div class="pizzaInfo_pricearea">
+                    <div class="pizzaInfo_sector">Preço</div>
+                    <div class="pizzaInfo_price">
+                        <div class="pizzaInfo_actualPrice">R$ --</div>
+                        <div class="pizzaInfo_qtarea">
+                            <button class="pizzaInfo_qtmenos">-</button>
+                            <div class="pizzaInfo_qt">1</div>
+                            <button class="pizzaInfo_qtmais">+</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="pizzaInfo_addButton">Adicionar ao carrinho</div>
+                <div class="pizzaInfo_cancelButton">Cancelar</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
